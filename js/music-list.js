@@ -34,5 +34,11 @@ let allMusic = [
     artist: "Ed Sheeran",
     img: "music-6",
     src: "ShapeOfYou"
+},
+{
+    name: "Waiting For Love",
+    artist: "Avicii",
+    img: "music-7",
+    src: "WaitingForLove"
 }
 ];
