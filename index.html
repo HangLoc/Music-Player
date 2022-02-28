@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/material/30/000000/music--v1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b77218c15d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class="fa-solid fa-angle-down"></i>
+             <span>Now Playing</span>
+             <i class="fa-solid fa-ellipsis"></i>
+        </div>
+        <div class="img-area">
+            <img src="./images/music-1.jpg" alt="music-1">
+        </div>
+        <div class="song-details">
+            <p class="name"></p>
+            <p class="artist"></p>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar">
+                <span></span>
+            </div>
+            <div class="timer">
+                <span class="current"></span>
+                <span class="duration"></span>
+            </div>
+            <audio id="main-audio" src=""></audio>
+        </div>
+        <div class="controls">
+            <i id="repeat-list" class="material-icons" title="Playlist looped">repeat</i>
+            <i id="prev"  class="fa-solid fa-backward-step"></i>
+            <div class="play-pause">
+                <i class="fa-solid fa-play"></i>
+                <!-- <i class="fa-solid fa-pause"></i> -->
+            </div>
+            <i id="next" class="fa-solid fa-forward-step"></i>
+            <i id="more-music" class="fa-solid fa-list"></i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Music list</span>
+                </div>
+                <i id="close" class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+               
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/music-list.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
